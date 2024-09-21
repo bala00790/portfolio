@@ -2,7 +2,7 @@
 import AboutImage from '../assets/list.png'
 const About = () => {
   return (
-    <div className='bg-black text-which py-20' id='about'> 
+    <div className='bg-black text-which py-20 h-screen flex items-center justify-center flex-col' id='about'> 
       <div className='container mx-auto px-8 md:px-16 lg:px-24 '>
         <h2 className='text-4xl font-bold text-center text-white mb-12'>About Me</h2>
         <div className='flex flex-col md:flex-row items-center md:space-x-12'>
@@ -42,8 +42,30 @@ const About = () => {
                     transform transition-transform duration-300 hover:scale-105 w-9/12'>
                      </div> 
                 </div>
-                </div>
-               
+                </div>             
+            </div>
+            <div className='mt-12 flex justify-between text-center'>
+              <div>
+                <h3 className='text-2xl font-bold text-transparent bg-clip-text
+                bg-gradient-to-r from-green-400 to-blue-500'>
+                  3+
+                </h3>
+                <p className='text-white'>Years Experience</p>
+              </div>
+              <div>
+                <h3 className='text-2xl font-bold text-transparent bg-clip-text
+                bg-gradient-to-r from-green-400 to-blue-500'>
+                  5
+                </h3>
+                <p className='text-white'>Projects Completed</p>
+              </div>
+              <div>
+                <h3 className='text-2xl font-bold text-transparent bg-clip-text
+                bg-gradient-to-r from-green-400 to-blue-500'>
+                  10+
+                </h3>
+                <p className='text-white'>Years</p>
+              </div>
             </div>
             </div>
         </div>
