@@ -1,21 +1,22 @@
 //import React from 'react'
 import employeeMSImage from "../assets/abilities.png";
-import bookMSImage from "../assets/dashboard.png"
+import bookMSImage from "../assets/dashboard.png";
+import obs from "../assets/obs.png";
 
 const projects = [
     {
         id: 1,
-        name: "Project1",
-        technologies: "Language",
-        image: employeeMSImage,
-        github: "https://github.com/bala00790",
+        name: "Online_Book_Shop",
+        technologies: "HTML,CSS,JS,PHP",
+        image: obs,
+        github: "https://github.com/bala00790/Online_Book_Shop",
     },
     {
         id: 2,
-        name: "Project2",
-        technologies: "Language",
+        name: "Bus_Ticket_Reservation",
+        technologies: "Java",
         image: bookMSImage,
-        github: "https://github.com/bala00790",
+        github: "https://github.com/bala00790/Bus_Ticket_Reservation_System",
     },
     {
         id: 3,
