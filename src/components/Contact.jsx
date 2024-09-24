@@ -25,7 +25,7 @@ const Contact = () => {
             </div>
             <div className="mb-4 ">
                  <MapPinHouse className='inline-block text-green-400 mr-2'></MapPinHouse>
-                 <span className='text-white'>street, city, pronice, country</span>
+                 <span className='text-white'>street, city, country</span>
             </div>
             </div>
             <div className="flex-1 w-full">

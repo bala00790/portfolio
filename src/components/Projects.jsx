@@ -1,7 +1,8 @@
 //import React from 'react'
 import employeeMSImage from "../assets/abilities.png";
-import bookMSImage from "../assets/dashboard.png";
+//import bookMSImage from "../assets/dashboard.png";
 import obs from "../assets/obs.png";
+import btrs from "../assets/btrs.webp";
 
 const projects = [
     {
@@ -15,7 +16,7 @@ const projects = [
         id: 2,
         name: "Bus_Ticket_Reservation",
         technologies: "Java",
-        image: bookMSImage,
+        image: btrs,
         github: "https://github.com/bala00790/Bus_Ticket_Reservation_System",
     },
     {
